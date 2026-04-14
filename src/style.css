@@ -1,0 +1,168 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    color: #444444;
+}
+
+h1{
+            text-align: center;
+            
+            font-size: 2.5rem;
+        }
+#banner{
+    width: 100%;
+    object-fit: cover;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    color: #222222;
+    
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+.location{
+    color: rgb(84, 84, 84);
+}
+.navbar{
+    height: 30px;
+    padding: 8px;
+    
+}
+#logo{
+    height: 100%;
+}
+#about{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-right: 10px;
+}
+#team-container{
+    flex: 1;
+}
+#description{
+    flex: 1;
+}
+img#team{
+    border-radius: 5px;
+}
+p{
+    margin-top: 0;
+}
+h2{
+    text-align: center;
+}
+#jobs{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.job-role{
+    margin-bottom: 0px;
+}
+.job-description-container{
+    display: flex;
+    vertical-align: center;
+}
+.job-detail{
+    flex: 1;
+}
+.apply-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+.application label{
+    font-weight: 600;
+}
+.application input, select{
+    padding: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+textarea{
+    width: 90%;
+    font-family: Roboto, sans-serif;
+    font-size: 1.25rem;
+}
+.application div{
+    margin-top: 20px;
+}
+
+.application input[type=checkbox]{
+    height: 16px;
+    width: 16px;
+}
+
+.application input[type=submit]{
+    background-color: #00a6f4;
+    padding: 8px 12px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+#footer-links{
+    list-style: none;
+    text-align: center;
+}
+#footer-links li{
+    display: inline-block;
+    margin: 0 16px;
+    text-align: center;
+}
+#footer{
+    background-color: ghostwhite;
+    padding: 8px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+#rights{
+    text-align: center;
+    color: gray;
+}
+
+table#jobs{
+    width: 100%;
+    text-align: left;
+    
+    
+}
+
+table#jobs td,  
+table#jobs th   {
+   
+    padding: 8px;
+}
+
+table#jobs th{
+    background-color: #dff2fe;
+    text-align: center;
+    font-weight: 600;
+}
+
+table#jobs tr:nth-child(even){
+    background-color:#f0f9ff;
+}
